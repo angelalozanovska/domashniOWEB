@@ -1,0 +1,49 @@
+body{
+    font-family: Papyrus;
+    background-color: rgb(234, 213, 186);
+    padding: 2%;
+}
+#name{
+    background-color: rgb(255, 255, 255); 
+    border-radius: 20%;
+    font-family: lucida handwriting;
+}
+th{
+    padding: 96px;
+    border: none;
+    color:rgb(0, 0, 0);
+    position: relative;
+    top:96px;
+}
+#ime{
+    font-size:x-large;
+}
+table{
+    border-radius: 50px;
+    background-color: antiquewhite;
+    background-image: url(pizza.jpg);
+}
+
+td{
+    border: none;
+}
+#dugme{
+   padding: 5px;
+   background-color: white;
+   border-style: ridge;
+   
+}
+#dugme:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+#pomosen{
+    text-align: center;
+
+}
+td{
+    padding: 15px;
+}
+#comm{
+    border-radius: 16%;
+}
