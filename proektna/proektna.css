@@ -1,0 +1,472 @@
+#body{
+    background-image: url(pozadina.jpg);
+    margin: 0;
+    padding: 0;
+    background-size:contain;
+}
+header{
+    background-color: rgb(123, 120, 112);
+    padding: 22px;
+    background-image: url(logo.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: 6%;
+    font-family: lucida handwriting;
+    display: flex;
+    justify-content: space-between;
+
+}
+#login{
+    background-color: antiquewhite;
+    border-color: black;
+    padding:5px;
+    border-radius: 2%;
+    cursor: pointer;
+    height: 36px;
+}
+#login1{
+    background-color: antiquewhite;
+    border-color: black;
+    padding:5px;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 36px;
+}
+#signup{
+    background-color: antiquewhite;
+    border-color: black;
+    padding:5px;
+    border-radius: 2%;
+    cursor: pointer;
+    height: 36px;
+}
+#podheader {
+    color: #0b0a0a;
+    text-align:left;
+    font-family: arial;
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+}
+
+#kategorii{
+    padding: 6px 0px 6px 10px;
+    font-size: large;
+    cursor: pointer;
+    color: black;
+    margin-left: 50px;
+    position:relative;
+    top:-25px;
+}
+#recenzii{
+    padding: 6px 0px 6px 10px;
+    font-size: large;
+    cursor: pointer;
+    text-decoration: none; 
+    color: black;
+}
+#aboutus,#miniig{
+    padding: 6px 0px 6px 10px;
+    font-size: large;
+    cursor: pointer;
+    text-decoration: none; 
+    color: black;
+    margin-right: 50px;
+}
+#footer{
+    cursor: pointer;
+    text-decoration: none; 
+    color: black;
+    text-align: center;
+}
+#contactus{
+font-size: xx-large;
+margin-left: 720px;
+}
+#contactus:hover {
+    text-decoration: underline;
+  }
+#kosnicka{
+    padding: 6px 0px 6px 10px;
+    font-size: large;
+    cursor: pointer;
+    text-decoration: none; 
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+ul li {
+    margin: 5px 0;
+}
+
+.hidden {
+    display: none;
+}
+ul li a {
+    padding:20px;
+    color: black;       
+    text-decoration: none;  
+}
+a{
+    text-decoration: none;
+    color: #0b0a0a;
+    font-size: medium;
+}
+#lista{
+    margin-left: 50px;
+}
+#knigananedelata{
+    font-family: lucida handwriting;
+    padding: 10px;
+    font-size:xx-large;
+    margin-left: 52px;
+ 
+}
+#slika{
+    background-repeat: no-repeat;
+    width: 250px;
+    height: min-content;
+    margin-left: 80px;
+    cursor: pointer;
+}
+#slika2{
+    width: 460px;
+    height: min-content;
+    margin-left: 160px;
+}
+#slikaistihovi{
+    display: flex;
+}
+#stihovi{
+    font-family: lucida handwriting;
+    padding: 10px;
+    font-size:xx-large;
+    margin-left: 220px;
+}
+#procitajrecenzija{
+    margin-left: 128px;
+}
+#comment{
+    border-radius: 16%;
+    margin-left: 60px;
+    width: 260px;
+    height: 100px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: 2px solid rgb(116, 110, 110); 
+}
+#komentar{
+margin-left: 146px;
+font-size: medium;
+color: #0b0a0a;
+}
+
+
+#bodybooks, #bodylogin, #bodykosnicka{
+    background-image: url(pozadina.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    
+}
+#bodybookmarks,#bodyjournals,#bodyaboutus,#bodyig{
+    background-image: url(pozadina.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover; 
+}
+#bodyrecenzija{
+    background-image: url(pozadina.jpg);
+    background-size: contain; 
+}
+#trileri,#drami,#romansi,#duhovni{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+div{
+    margin-left: 12px;
+    margin-top: 20px;
+    font-size: larger;
+    color: #504945;
+}
+
+#trileri img, #romansi img, #drami img,#duhovni img{
+    width: 100px; 
+    height: 158px; 
+    margin: 5px; 
+}
+#triler,#romansa, #drama, #duhovna{
+    margin-top: 24px;
+    text-align:center;
+    background-color: #cfbaa9;
+    width: 100px;
+    height: 158px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #504945;
+}
+
+#citat{
+    margin: 20px;
+    margin-top: 26px;
+    font-size: large;
+    font-family: lucida handwriting;
+    color: #504945;
+}
+#citat2{
+    margin: 20px;
+    margin-top: 26px;
+    margin-right: 360px;
+    font-size: large;
+    font-family: lucida handwriting;
+    color: #504945;
+}
+#buttons{
+    margin-left: 170px;
+
+}
+button{
+    margin-right: 76px;
+
+}
+#buy{
+    background-color:#cfbaa9;
+    border-color:#504945;
+    padding:5px;
+    border-radius: 6%;
+    cursor: pointer;
+    height: 30px;
+    margin-right: 58px;
+}
+#bukmarkeri{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 700px;
+
+}
+#bukmarkeri img{
+    width: 280px;
+    height: auto;
+}
+#dnevnici img{
+    width: 280px;
+    height: auto;
+}
+#kolekcii{
+    font-size: x-large;
+    padding-left: 25px;
+    color: #504945;
+    font-style: italic;
+}
+#slikibukmarkeri{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 780px;
+    margin-left: 100px;
+}
+#quote{
+    margin: 20px;
+    margin-top: 26px;
+    font-size: x-large;
+    font-family: lucida handwriting;
+    color: #504945; 
+}
+#new{
+    width: 100px;
+    height: auto;
+    position: relative;
+    top:-300px;
+    left: 240px;
+}
+#new2{
+    width: 100px;
+    height: auto;
+    position: relative;
+    top:-300px;
+    left:654px;
+}
+#mini{
+    font-size: xx-large;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: #cfbaa9;
+    width: 258px;
+    border: 2px solid #504945;
+    border-radius: 6%;
+}
+#mini2{
+    margin-left: 60px;
+}
+label{
+    font-size: x-large;
+}
+#kupibukmarker{
+    margin-left:88px;
+    background-color: #504945;
+    color: #cfbaa9;
+    cursor: pointer;
+    border-radius: 6%;
+    height: 38px;
+    width: 80px;
+}
+
+#dnevnici{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 700px;
+
+}
+#dnevnici img{
+    width: 280px;
+    height: auto;
+}
+#kolekcii1{
+    font-size: x-large;
+    padding-left: 25px;
+    color: #504945;
+    font-style: italic;
+}
+#slikidnevnici{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 780px;
+    margin-left: 100px;
+}
+#quote1{
+    margin: 20px;
+    margin-top: 26px;
+    font-size: x-large;
+    font-family: lucida handwriting;
+    color: #504945; 
+}
+#mini1{
+    font-size: xx-large;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: #cfbaa9;
+    width: 258px;
+    border: 2px solid #504945;
+    border-radius: 6%;
+}
+#mini12{
+    margin-left: 60px;
+}
+label{
+    font-size: x-large;
+}
+#kupidnevnik{
+    margin-left:88px;
+    background-color: #504945;
+    color: #cfbaa9;
+    cursor: pointer;
+    border-radius: 6%;
+    height: 38px;
+    width: 80px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    left: 350px;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #504945;
+    border-radius: 8px;
+}
+#formkosnicka{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start
+}
+#logins{
+   padding-left:50px;
+}
+#login1{
+    margin-left: 66px;
+}
+#recenzija{
+    display:flex;
+    justify-content: center;
+    border: 4px solid #726c6a;
+    margin-right: 400px;
+}
+#tekst{
+    font-size: large;
+}
+#likebutton{
+    background-color: #cfbaa9;
+    border-color:#504945;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 36px;
+    margin-left: 400px;;
+}
+#likecount{
+position: relative;
+top:-60px;
+left: 480px;
+}
+#dodaj{
+    font-size: x-large;
+    margin-left: 400px;
+    border: 4px solid #726c6a;
+    width: 180px;
+    height: 90px;
+}
+#dodajslika{
+    width: 50px;
+    height: auto;
+    margin-left: 60px;
+}
+#f{
+    padding: 2px;
+    padding-right: 10px;
+}
+#gradche{
+    margin-left: 6px;
+}
+#buyy{
+    background-color: antiquewhite;
+    border-color:#504945;
+    margin-left: 110px;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 36px;
+}
+#citat3,#citat4,#citat5,#citat6{
+    font-size: large;
+    color: #54504d;
+    margin-left: 50px;
+}
+#citatche{
+    font-size: medium;
+margin-left: 62px;
+margin-right: 360px;
+font-family: lucida handwriting;
+}
+#anketa{
+
+    padding: 42px;
+}
+#anketche{
+    background-color: antiquewhite;
+}
+#deca{
+    width: 400px;
+    height: auto;
+}
+#rec{
+    font-size: x-large;
+    margin-left: 500px;
+    font-style: italic;
+}
