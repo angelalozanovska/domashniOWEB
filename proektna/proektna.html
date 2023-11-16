@@ -36,7 +36,8 @@
     <img id="slika" src="kniga.png" onclick="funkcija2()">
     <p id="procitajrecenzija"><a  href="recenzija.html">Прочитај рецензија</a></p>
     <div id="komentar">Додај коментар:</div>
-        <div><textarea id="comment" name="comment"></textarea></div>
+        <div><textarea id="comment" oninput="update()" name="comment"></textarea></div>
+        <p id="tvoj">Коментари:</p>
     </div>
     <div><p id="stihovi">Poetry of the day</p>
     <img id="slika2" src="stihovi.jpg" alt=""></div>
