@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#myInputf").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("td#fn").filter(function() {
+      $(this).parent().toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+   $("#myInputl").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("td#ln").filter(function() {
+      $(this).parent().toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+   $("#myInpute").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("td#e").filter(function() {
+      $(this).parent().toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>Filterable Table</h2>
+<p>Type something in the input field to search the table for first names, last names or emails:</p>  
+<input id="myInputf" type="text" placeholder="Search firstname..">
+<input id="myInputl" type="text" placeholder="Search lastname..">
+<input id="myInpute" type="text" placeholder="Search email..">
+<br><br>
+
+<table>
+  <thead>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Email</th>
+  </tr>
+  </thead>
+  <tbody id="myTable">
+  <tr>
+    <td id="fn">John</td>
+    <td id="ln">Doe</td>
+    <td id="e">john@example.com</td>
+  </tr>
+  <tr>
+    <td id="fn">Mary</td>
+    <td id="ln">Moe</td>
+    <td id="e">mary@mail.com</td>
+  </tr>
+  <tr>
+    <td id="fn">July</td>
+    <td id="ln">Dooley</td>
+    <td id="e">july@greatstuff.com</td>
+  </tr>
+  <tr>
+    <td id="fn">Anja</td>
+    <td id="ln">Ravendale</td>
+    <td id="e">a_r@test.com</td>
+  </tr>
+  </tbody>
+</table>
+  
+<p>Note that we start the search in tbody, to prevent filtering the table headers.</p>
+
+</body>
+</html>
